@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   id="mermaid-svg-1674837716424"
+   width="600"
+   height="450"
+   viewBox="0 0 600 450"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   role="img"
+   aria-labelledby="title"
+   >
+<title>mermaid-diagram-1674837716424</title>
+<style>
+  /* Mermaid が出力するデフォルトのスタイルが入ります */
+  .label{font-family: "trebuchet ms", verdana, arial; font-size: 16px; fill:#333}
+  .label text{fill:#333}
+  .node rect, .node circle, .node ellipse, .node polygon, .node path { fill: #ECECFF; stroke: #9370DB; stroke-width: 1px;}
+  .edgeLabel { background-color: #e8e8e8; text-align: center;}
+  /* 省略... */
+</style>
+<g>
+  <g id="cluster_Left" transform="translate(20,20)">
+    <rect x="-10" y="-10" width="220" height="240" rx="5" ry="5" fill="#fff" stroke="#aaa" stroke-width="1"/>
+    <text x="100" y="0" class="label" text-anchor="middle" alignment-baseline="central"> </text>
+
+    <g class="node" id="E">
+      <ellipse cx="60" cy="30" rx="50" ry="22"/>
+      <text x="60" y="30" class="label" text-anchor="middle" alignment-baseline="central">楕円曲線 E</text>
+    </g>
+
+    <g class="node" id="G1">
+      <rect x="10" y="70" width="100" height="30" rx="0" ry="0"/>
+      <text x="60" y="85" class="label" text-anchor="middle" alignment-baseline="central">p進ガロワ表現</text>
+    </g>
+
+    <g class="edge" id="edge_E_G1">
+      <path d="M60,52 L60,70" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <g class="node" id="RhoE">
+      <rect x="10" y="140" width="100" height="30" rx="0" ry="0"/>
+      <text x="60" y="155" class="label" text-anchor="middle" alignment-baseline="central">ρ_{E,p}</text>
+    </g>
+    <g class="edge" id="edge_G1_RhoE">
+      <path d="M60,100 L60,140" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+      <!-- (mod p) のラベル -->
+      <text x="70" y="120" class="label edgeLabel" text-anchor="start" alignment-baseline="central">(mod p)</text>
+    </g>
+
+    <g class="node" id="R">
+      <rect x="150" y="140" width="30" height="30" rx="0" ry="0"/>
+      <text x="165" y="155" class="label" text-anchor="middle" alignment-baseline="central">R</text>
+    </g>
+    <g class="edge" id="edge_RhoE_R">
+      <path d="M110,155 L150,155" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+      <text x="110" y="190" class="label edgeLabel" text-anchor="middle" alignment-baseline="alphabetic">変形理論でパラメータ化</text>
+    </g>
+  </g>
+
+  <!-- 右側（モジュラー形式 f） subgraph -->
+  <g id="cluster_Right" transform="translate(300,20)">
+    <rect x="-10" y="-10" width="230" height="240" rx="5" ry="5" fill="#fff" stroke="#aaa" stroke-width="1"/>
+    <text x="105" y="0" class="label" text-anchor="middle" alignment-baseline="central"> </text>
+
+    <!-- F((モジュラー形式 f)) -->
+    <g class="node" id="F">
+      <ellipse cx="60" cy="30" rx="55" ry="22"/>
+      <text x="60" y="30" class="label" text-anchor="middle" alignment-baseline="central">モジュラー形式 f</text>
+    </g>
+
+    <!-- G2[p進ガロワ表現] -->
+    <g class="node" id="G2">
+      <rect x="10" y="70" width="100" height="30" rx="0" ry="0"/>
+      <text x="60" y="85" class="label" text-anchor="middle" alignment-baseline="central">p進ガロワ表現</text>
+    </g>
+
+	<g class="edge" id="edge_F_G2">
+      <path d="M60,52 L60,70" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <g class="node" id="RhoF">
+      <rect x="10" y="140" width="100" height="30" rx="0" ry="0"/>
+      <text x="60" y="155" class="label" text-anchor="middle" alignment-baseline="central">ρ_f</text>
+    </g>
+    <g class="edge" id="edge_G2_RhoF">
+      <path d="M60,100 L60,140" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+      <text x="70" y="120" class="label edgeLabel" text-anchor="start" alignment-baseline="central">(mod p)</text>
+    </g>
+
+    <g class="node" id="T">
+      <rect x="150" y="140" width="30" height="30" rx="0" ry="0"/>
+      <text x="165" y="155" class="label" text-anchor="middle" alignment-baseline="central">T</text>
+    </g>
+    <g class="edge" id="edge_RhoF_T">
+      <path d="M110,155 L150,155" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+      <text x="110" y="190" class="label edgeLabel" text-anchor="middle" alignment-baseline="alphabetic">Hecke 作用素でパラメータ化</text>
+    </g>
+  </g>
+
+  <g class="edge" id="edge_R_T">
+    <path d="M185,155C200,155 280,155 300,155" stroke="#333" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="242" y="150" class="label edgeLabel" text-anchor="middle" alignment-baseline="alphabetic">同型</text>
+  </g>
+
+  <defs>
+    <marker
+       id="arrowhead"
+       markerWidth="6"
+       markerHeight="4"
+       refX="5"
+       refY="2"
+       orient="auto"
+       >
+      <path d="M0,0 V4 L6,2 Z" fill="#333"/>
+    </marker>
+  </defs>
+</g>
+</svg>
