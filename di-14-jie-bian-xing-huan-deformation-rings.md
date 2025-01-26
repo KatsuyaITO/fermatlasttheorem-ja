@@ -51,7 +51,7 @@ $$
 \rho_R \colon G_K \;\longrightarrow\; \mathrm{GL}_2(R)
 $$
 
-であって、その剰余表現（$$\mathfrak{m}_R$$ による商）をとると $$\overline{\rho}$$ と同型になるものを指します。2つの変形 $$ho_R$$ と $$ho_R'$$ が **同値** であるとは、それらが $$\mathfrak{m}_R$$ による剰余で恒等写像となるような同型（同じ群表現の意味で）によって結ばれることを言います。
+であって、その剰余表現（$$\mathfrak{m}_R$$ による商）をとると $$\overline{\rho}$$ と同型になるものを指します。2つの変形 $$ \rho_R$$ と $$ \rho_R'$$ が **同値** であるとは、それらが $$\mathfrak{m}_R$$ による剰余で恒等写像となるような同型（同じ群表現の意味で）によって結ばれることを言います。
 
 このとき得られる関手は
 
@@ -77,10 +77,10 @@ $$
 > \rho^{\mathrm{univ}} \colon G_K \;\longrightarrow\; \mathrm{GL}_2(R_{\overline{\rho}}^{\mathrm{univ}})
 > $$
 >
-> が存在する。これは「普遍」という意味で、もし任意の $$R \in \mathcal{C}$$ 上の変形 $$ho_R$$ が与えられれば、ただ一つの $$\mathbf{W}$$-代数準同型\
-> $$\varphi \colon R_{\overline{\rho}}^{\mathrm{univ}} \to R$$ によって $$ho^{\mathrm{univ}}$$ から「因数分解」する形で得られる。さらに、$$\mathcal{D}_{\overline{\rho}}(R)$$ は $$\mathrm{Hom}_{\mathcal{C}}(R_{\overline{\rho}}^{\mathrm{univ}}, R)$$ と自然に同型になる。\*
+> が存在する。これは「普遍」という意味で、もし任意の $$R \in \mathcal{C}$$ 上の変形 $$ \rho_R$$ が与えられれば、ただ一つの $$\mathbf{W}$$-代数準同型\
+> $$\varphi \colon R_{\overline{\rho}}^{\mathrm{univ}} \to R$$ によって $$ \rho^{\mathrm{univ}}$$ から「因数分解」する形で得られる。さらに、$$\mathcal{D}_{\overline{\rho}}(R)$$ は $$\mathrm{Hom}_{\mathcal{C}}(R_{\overline{\rho}}^{\mathrm{univ}}, R)$$ と自然に同型になる。\*
 
-この環 $$R_{\overline{\rho}}^{\mathrm{univ}}$$ を **普遍変形環**（universal deformation ring）と呼び、$$ho^{\mathrm{univ}}$$ を $$\overline{\rho}$$ の **普遍変形**（universal deformation）と呼びます。
+この環 $$R_{\overline{\rho}}^{\mathrm{univ}}$$ を **普遍変形環**（universal deformation ring）と呼び、$$ \rho^{\mathrm{univ}}$$ を $$\overline{\rho}$$ の **普遍変形**（universal deformation）と呼びます。
 
 ***
 
@@ -155,7 +155,7 @@ $$
 
 メイザーの手法の大きな特徴は、各素点 $$v$$ における表現の**局所的な条件**を柔軟に課せることにあります。例として：
 
-1. $$v \mid p$$ **でのordinary条件:** $$ho_R\vert_{G_{K_v}}$$ が1次部分表現をもち、それが$$p$$進円分（cyclotomic）指標（あるいはそのねじり）に対応するように要求する（具体的には、行列を上三角にし、対角成分の一つがその円分指標になるなど）。これを _ordinary 変形_ と呼ぶ。
+1. $$v \mid p$$ **でのordinary条件:** $$ \rho_R\vert_{G_{K_v}}$$ が1次部分表現をもち、それが$$p$$進円分（cyclotomic）指標（あるいはそのねじり）に対応するように要求する（具体的には、行列を上三角にし、対角成分の一つがその円分指標になるなど）。これを _ordinary 変形_ と呼ぶ。
 2. $$v \mid p$$ **での平坦（flat）/結晶（crystalline）性:** レイノー（Raynaud）の意味で有限平坦群スキームから来る表現（flat）や、フォンテーヌ–ラファイユ（Fontaine–Laffaille）の理論で定まる特定のホッジ–テイト重みをもつ結晶表現になる、などの条件を課すことができる。こうした局所条件を課すことで、可能な変形の空間は大幅に縮小される。
 3. $$v \nmid p$$ **での分岐制約:** ある素点で非分岐であることを要求したり、特定の型（たとえばプリンシパル・シリーズ型やシュタインベルク型など）をとることを要求する。これら局所条件は対応する局所ガロワ群 $$G_{K_v}$$ に対する変形関手の形で定式化される。
 

@@ -108,14 +108,14 @@ $$
 \rho_{E,\ell}: \; G_{K} \;\longrightarrow\; \operatorname{Aut}\bigl(V_\ell(E)\bigr),
 $$
 
-ここで $$V_\ell(E)$$ は $$\ell$$-進テイト加群 $$T_\ell(E)$$ から誘導される $$\mathbb{Q}_\ell$$-ベクトル空間である。この表現 $$ho_{E,\ell}$$ を理解するには、各素点 $$\mathfrak{p}$$ に対する **分解群 (decomposition group)** $$D_\mathfrak{p}$$ への制限を調べる必要がある。$$D_\mathfrak{p}$$ は、大まかに言えば、$$\mathfrak{p}$$ での局所ガロワ対称性を担う部分群であり、その中に **慣性群 (inertia group)** $$I_\mathfrak{p}$$ が含まれる。
+ここで $$V_\ell(E)$$ は $$\ell$$-進テイト加群 $$T_\ell(E)$$ から誘導される $$\mathbb{Q}_\ell$$-ベクトル空間である。この表現 $$ \rho_{E,\ell}$$ を理解するには、各素点 $$\mathfrak{p}$$ に対する **分解群 (decomposition group)** $$D_\mathfrak{p}$$ への制限を調べる必要がある。$$D_\mathfrak{p}$$ は、大まかに言えば、$$\mathfrak{p}$$ での局所ガロワ対称性を担う部分群であり、その中に **慣性群 (inertia group)** $$I_\mathfrak{p}$$ が含まれる。
 
 ### 8.2.1 悪い還元素点での既約表現
 
 $$\ell$$-進テイト加群 $$T_\ell(E)$$ に対する $$I_\mathfrak{p}$$ の作用は、$$E$$ の $$\mathfrak{p}$$ における還元の様子を示す。具体的には：
 
 * **良い還元** の場合\
-  $$I_\mathfrak{p}$$ は $$T_\ell(E)$$ に自明に作用する（不分岐）。すなわち $$ho_{E,\ell}\vert_{I_\mathfrak{p}}$$ は自明。
+  $$I_\mathfrak{p}$$ は $$T_\ell(E)$$ に自明に作用する（不分岐）。すなわち $$ \rho_{E,\ell}\vert_{I_\mathfrak{p}}$$ は自明。
 * **乗法的還元** の場合\
   $$I_\mathfrak{p}$$ は $$T_\ell(E)$$ に対して非自明な作用をするが、それはしばしば「円分的 (cyclotomic)」な性質をもつ。これは特異ファイバーが「ノード」であることと対応している。
 * **加法的還元** の場合\
